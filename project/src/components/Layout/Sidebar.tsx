@@ -289,10 +289,14 @@ export function Sidebar() {
       <div className="p-6">
         <div className="flex items-center space-x-3">
           <div className={`w-10 h-10 ${getRoleIcon(user?.role.name || '')} rounded-lg flex items-center justify-center`}>
-            <FileText className="w-6 h-6 text-white" />
+	    <img 
+            src="/sitIndiaGovtLogo.png" 
+            alt="Goverment Of India" 
+            className="h-10 object-contain"
+          />
           </div>
           <div>
-            <h2 className="text-xl font-bold">Tuteck</h2>
+            <h2 className="text-xl font-bold">NSSO, MCQ</h2>
             <p className="text-xs text-gray-400">Examination Platform</p>
           </div>
         </div>

@@ -15,14 +15,14 @@ export function Header() {
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-4">
           <img 
-            src="/Tuteck-Logo_Darkmode-2.svg" 
-            alt="Tuteck Technologies Pvt. Ltd." 
+            src="/Tuteck-Logo_Darkmode.svg" 
+            alt="NSSO, Goverment Of India" 
             className="h-10 object-contain"
           />
           <div className="flex items-center space-x-2">
             <div>
-              <h1 className="text-xl font-bold text-gray-900">Tuteck Online Examination Platform</h1>
-              <p className="text-sm text-gray-600">Tuteck Technologies Pvt. Ltd.</p>
+              <h1 className="text-xl font-bold text-gray-900">NSSO MCQ Online Examination Platform</h1>
+              <p className="text-sm text-gray-600">Ministry of Statistics and Programme Implementation, Goverment Of India</p>
             </div>
             {isDemoMode && (
               <span className="px-2 py-1 bg-yellow-100 text-yellow-800 text-xs rounded-full font-medium">
